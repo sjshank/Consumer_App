@@ -31,7 +31,7 @@ A MEAN Stack based utility to add/update customers and generate consolidated bil
     
 Steps to follow for running app :
 
-    Clone code from git clone https://github.com/sjshank/Consumer_App.git
+    Clone code from Github  " git clone https://github.com/sjshank/Consumer_App.git "
 
     1. install Nodejs from here https://nodejs.org/en/ and make node env up. 
     This will automatically install NPM package in your system.
@@ -39,6 +39,7 @@ Steps to follow for running app :
     3. Run 'npm install' on 'package.json'. This will create new folder 'node_modules' 
     inside same directory where you can see all the mentioned dependencies inside
     'package.json' will gets installed.
-    4. Run 'node app.js' over root directory.
+    4. Run 'grunt less' for compiling style.less into style.css
+    5. Run 'grunt' or 'node app.js' over root directory.
     
     Hit "localhost:4000" to see running application
