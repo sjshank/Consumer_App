@@ -1,0 +1,556 @@
+[2016-04-01 17:59:19.245] [ERROR] app - unexpected error occur  [ReferenceError: loadAddress is not defined]
+ReferenceError: loadAddress is not defined
+    at C:\Users\ss812960\Desktop\Nodejs\WSDL-Generator\app.js:33:5
+    at Layer.handle [as handle_request] (C:\Users\ss812960\Desktop\Nodejs\WSDL-Generator\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ss812960\Desktop\Nodejs\WSDL-Generator\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (C:\Users\ss812960\Desktop\Nodejs\WSDL-Generator\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ss812960\Desktop\Nodejs\WSDL-Generator\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ss812960\Desktop\Nodejs\WSDL-Generator\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (C:\Users\ss812960\Desktop\Nodejs\WSDL-Generator\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\ss812960\Desktop\Nodejs\WSDL-Generator\node_modules\express\lib\router\index.js:271:10)
+    at C:\Users\ss812960\Desktop\Nodejs\WSDL-Generator\app.js:28:5
+    at Layer.handle [as handle_request] (C:\Users\ss812960\Desktop\Nodejs\WSDL-Generator\node_modules\express\lib\router\layer.js:95:5)
+[2016-04-01 20:40:43.422] [DEBUG] createController - Inside createWsdl methond
+[2016-04-01 20:40:43.427] [ERROR] createController - Error occurred while creating wsdl [TypeError: Converting circular structure to JSON]
+TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at ServerResponse.json (C:\Users\ss812960\Desktop\Nodejs\WSDL-Generator\node_modules\express\lib\response.js:242:19)
+    at Object.exports.createWsdl (C:\Users\ss812960\Desktop\Nodejs\WSDL-Generator\server\controllers\createController.js:48:33)
+    at C:\Users\ss812960\Desktop\Nodejs\WSDL-Generator\server\config\router.js:11:20
+    at Layer.handle [as handle_request] (C:\Users\ss812960\Desktop\Nodejs\WSDL-Generator\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ss812960\Desktop\Nodejs\WSDL-Generator\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (C:\Users\ss812960\Desktop\Nodejs\WSDL-Generator\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ss812960\Desktop\Nodejs\WSDL-Generator\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ss812960\Desktop\Nodejs\WSDL-Generator\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (C:\Users\ss812960\Desktop\Nodejs\WSDL-Generator\node_modules\express\lib\router\index.js:330:12)
+[2016-04-01 20:42:15.962] [DEBUG] createController - Inside createWsdl methond
+[2016-04-01 20:43:11.027] [DEBUG] createController - Inside createWsdl methond
+[2016-04-02 16:50:50.792] [INFO] db - Connection established !
+[2016-04-02 16:55:07.082] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-02 16:55:07.084] [ERROR] customerController - Error occurred while retrieving customers [TypeError: resOject.sendJson is not a function]
+TypeError: resOject.sendJson is not a function
+    at Object.exports.getCustomers (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:24:18)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\router.js:16:22
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:176:3)
+    at router (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\appConfig.js:25:5
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+[2016-04-02 16:55:36.309] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-02 16:55:36.310] [ERROR] customerController - Error occurred while retrieving customers [TypeError: resOject.sendJson is not a function]
+TypeError: resOject.sendJson is not a function
+    at Object.exports.getCustomers (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:24:18)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\router.js:16:22
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:176:3)
+    at router (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\appConfig.js:25:5
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+[2016-04-02 16:55:58.851] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-02 16:55:58.852] [ERROR] customerController - Error occurred while retrieving customers [TypeError: resOject.sendJson is not a function]
+TypeError: resOject.sendJson is not a function
+    at Object.exports.getCustomers (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:24:18)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\router.js:16:22
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:176:3)
+    at router (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\appConfig.js:25:5
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+[2016-04-02 16:57:02.264] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-02 16:57:02.265] [ERROR] customerController - Error occurred while retrieving customers [TypeError: resOject.sendJson is not a function]
+TypeError: resOject.sendJson is not a function
+    at Object.exports.getCustomers (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:24:18)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\router.js:16:22
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:176:3)
+    at router (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\appConfig.js:25:5
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+[2016-04-02 16:59:02.215] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-02 16:59:02.217] [ERROR] customerController - Error occurred while retrieving customers [TypeError: resOject.sendJson is not a function]
+TypeError: resOject.sendJson is not a function
+    at Object.exports.getCustomers (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:24:18)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\router.js:16:22
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:176:3)
+    at router (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\appConfig.js:25:5
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+[2016-04-02 21:46:06.139] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-02 21:46:06.141] [ERROR] customerController - Error occurred while retrieving customers [TypeError: resOject.sendJson is not a function]
+TypeError: resOject.sendJson is not a function
+    at Object.exports.getCustomers (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:24:18)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\router.js:16:22
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:176:3)
+    at router (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\appConfig.js:25:5
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+[2016-04-02 21:46:35.888] [INFO] db - Connection established !
+[2016-04-02 21:47:21.927] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-02 21:47:21.929] [ERROR] customerController - Error occurred while retrieving customers [TypeError: resOject.sendJson is not a function]
+TypeError: resOject.sendJson is not a function
+    at Object.exports.getCustomers (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:24:18)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\router.js:16:22
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:176:3)
+    at router (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\appConfig.js:25:5
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+[2016-04-02 21:49:21.860] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-02 21:49:21.860] [ERROR] customerController - Error occurred while retrieving customers [TypeError: resOject.sendJson is not a function]
+TypeError: resOject.sendJson is not a function
+    at Object.exports.getCustomers (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:24:18)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\router.js:16:22
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:176:3)
+    at router (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\appConfig.js:25:5
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+[2016-04-02 21:49:24.160] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-02 21:49:24.161] [ERROR] customerController - Error occurred while retrieving customers [TypeError: resOject.sendJson is not a function]
+TypeError: resOject.sendJson is not a function
+    at Object.exports.getCustomers (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:24:18)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\router.js:16:22
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:176:3)
+    at router (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\appConfig.js:25:5
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+[2016-04-02 21:52:16.594] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-02 21:52:16.595] [ERROR] customerController - Error occurred while retrieving customers [TypeError: resOject.sendJson is not a function]
+TypeError: resOject.sendJson is not a function
+    at Object.exports.getCustomers (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:24:18)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\router.js:16:22
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:176:3)
+    at router (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\appConfig.js:25:5
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+[2016-04-02 22:41:10.237] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-02 22:41:10.241] [ERROR] customerController - Error occurred while retrieving customers [TypeError: resOject.sendJson is not a function]
+TypeError: resOject.sendJson is not a function
+    at Object.exports.getCustomers (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:24:18)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\router.js:16:22
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:176:3)
+    at router (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\appConfig.js:25:5
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+[2016-04-02 22:43:10.168] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-02 22:43:10.169] [ERROR] customerController - Error occurred while retrieving customers [TypeError: resOject.sendJson is not a function]
+TypeError: resOject.sendJson is not a function
+    at Object.exports.getCustomers (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:24:18)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\router.js:16:22
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:176:3)
+    at router (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\appConfig.js:25:5
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+[2016-04-02 22:43:11.037] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-02 22:43:11.038] [ERROR] customerController - Error occurred while retrieving customers [TypeError: resOject.sendJson is not a function]
+TypeError: resOject.sendJson is not a function
+    at Object.exports.getCustomers (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:24:18)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\router.js:16:22
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:176:3)
+    at router (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\appConfig.js:25:5
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+[2016-04-02 23:46:49.427] [INFO] db - Connection established !
+[2016-04-02 23:48:22.594] [INFO] db - Connection established !
+[2016-04-03 00:08:08.525] [INFO] db - Connection established !
+[2016-04-03 00:20:59.735] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 00:20:59.738] [ERROR] customerController - Error occurred while retrieving customers [TypeError: resOject.sendJson is not a function]
+TypeError: resOject.sendJson is not a function
+    at Object.exports.getCustomers (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:24:18)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\router.js:16:22
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:176:3)
+    at router (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\appConfig.js:25:5
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+[2016-04-03 00:22:59.678] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 00:22:59.679] [ERROR] customerController - Error occurred while retrieving customers [TypeError: resOject.sendJson is not a function]
+TypeError: resOject.sendJson is not a function
+    at Object.exports.getCustomers (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:24:18)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\router.js:16:22
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:176:3)
+    at router (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\appConfig.js:25:5
+    at Layer.handle [as handle_request] (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (C:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+[2016-04-03 01:21:28.823] [INFO] db - Connection established !
+[2016-04-03 01:22:59.307] [DEBUG] customerController - Inside updateCustomer methond
+[2016-04-03 01:25:48.084] [INFO] db - Connection established !
+[2016-04-03 01:26:52.462] [DEBUG] customerController - Inside updateCustomer methond
+[2016-04-03 01:29:05.193] [INFO] db - Connection established !
+[2016-04-03 01:29:15.137] [DEBUG] customerController - Inside updateCustomer methond
+[2016-04-03 01:32:01.044] [DEBUG] customerController - Inside updateCustomer methond
+[2016-04-03 01:32:58.080] [DEBUG] customerController - Inside updateCustomer methond
+[2016-04-03 01:34:03.621] [INFO] db - Connection established !
+[2016-04-03 01:34:19.967] [DEBUG] customerController - Inside updateCustomer methond
+[2016-04-03 01:34:45.045] [ERROR] customerController - Error occurred while saving customer details { [CastError: Cast to date failed for value "022/2015" at path "dob"]
+  message: 'Cast to date failed for value "022/2015" at path "dob"',
+  name: 'CastError',
+  kind: 'date',
+  value: '022/2015',
+  path: 'dob',
+  reason: undefined }
+CastError: Cast to date failed for value "022/2015" at path "dob"
+    at MongooseError.CastError (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\error\cast.js:19:11)
+    at SchemaDate.cast (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\schema\date.js:242:9)
+    at SchemaDate.castForQuery (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\schema\date.js:276:17)
+    at Query._castUpdateVal (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\query.js:2467:17)
+    at Query._walkUpdatePath (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\query.js:2414:25)
+    at Query._castUpdate (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\query.js:2286:23)
+    at castDoc (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\query.js:2490:18)
+    at Query._findAndModify (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\query.js:1751:17)
+    at Query._findOneAndUpdate (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\query.js:1619:8)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\kareem\index.js:156:8
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\kareem\index.js:18:7
+    at doNTCallback0 (node.js:407:9)
+    at process._tickCallback (node.js:336:13)
+[2016-04-03 01:35:07.333] [INFO] db - Connection established !
+[2016-04-03 01:35:11.116] [DEBUG] customerController - Inside updateCustomer methond
+[2016-04-03 01:36:15.661] [INFO] db - Connection established !
+[2016-04-03 01:36:18.755] [DEBUG] customerController - Inside updateCustomer methond
+[2016-04-03 01:49:35.968] [INFO] db - Connection established !
+[2016-04-03 01:50:05.067] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 01:51:20.520] [ERROR] customerController - Error occurred while retrieving customer details [ReferenceError: resObj is not defined]
+ReferenceError: resObj is not defined
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:65:17
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\kareem\index.js:177:19
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\kareem\index.js:109:16
+    at doNTCallback0 (node.js:407:9)
+    at process._tickCallback (node.js:336:13)
+From previous event:
+    at Object.exports.getCustomers (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:64:14)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\router.js:16:22
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:176:3)
+    at router (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\appConfig.js:25:5
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at urlencodedParser (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\body-parser\lib\types\urlencoded.js:88:40)
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+[2016-04-03 01:51:38.668] [INFO] db - Connection established !
+[2016-04-03 01:52:04.093] [INFO] db - Connection established !
+[2016-04-03 01:52:07.143] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 13:12:10.003] [INFO] db - Connection established !
+[2016-04-03 13:12:43.440] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 13:14:16.245] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 13:15:41.058] [INFO] db - Connection established !
+[2016-04-03 13:15:47.556] [DEBUG] customerController - Inside updateCustomer methond
+[2016-04-03 13:16:42.319] [INFO] db - Connection established !
+[2016-04-03 13:16:49.853] [DEBUG] customerController - Inside updateCustomer methond
+[2016-04-03 13:17:32.996] [INFO] db - Connection established !
+[2016-04-03 13:17:42.353] [DEBUG] customerController - Inside updateCustomer methond
+[2016-04-03 13:17:58.135] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 13:18:50.954] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 13:19:29.253] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 13:20:28.642] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 13:21:07.148] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 13:31:13.770] [INFO] db - Connection established !
+[2016-04-03 13:31:21.480] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 13:31:55.112] [INFO] db - Connection established !
+[2016-04-03 13:34:01.827] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 13:34:09.681] [ERROR] customerController - Error occurred while retrieving customer details [ReferenceError: customers is not defined]
+ReferenceError: customers is not defined
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:66:43
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\kareem\index.js:177:19
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\kareem\index.js:109:16
+    at doNTCallback0 (node.js:407:9)
+    at process._tickCallback (node.js:336:13)
+From previous event:
+    at Object.exports.getCustomers (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:65:14)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\router.js:16:22
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:176:3)
+    at router (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\appConfig.js:25:5
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at urlencodedParser (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\body-parser\lib\types\urlencoded.js:88:40)
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+[2016-04-03 13:42:52.910] [INFO] db - Connection established !
+[2016-04-03 13:43:38.009] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 13:44:07.495] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 13:47:40.991] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 14:03:48.924] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 14:22:47.763] [INFO] db - Connection established !
+[2016-04-03 14:23:03.483] [INFO] db - Connection established !
+[2016-04-03 14:40:26.027] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 14:41:54.565] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 14:42:19.735] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 14:42:40.368] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 14:43:08.051] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 14:44:06.816] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 14:45:44.862] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 14:46:20.109] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 14:47:25.607] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 14:48:00.654] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 14:48:41.110] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 14:54:04.338] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 14:58:37.686] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 14:59:15.064] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 14:59:39.420] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 14:59:59.793] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 15:00:24.037] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 15:01:31.629] [DEBUG] customerController - Inside getCustomers methond

@@ -1,0 +1,70 @@
+<div  class="container updateCust-container">
+
+    <app-header selected="update"></app-header>
+
+    <!-- To display error message -->
+    <div ng-cloak ng-if="me.hasError">
+        <ng-include src="'views/error.tpl.html'"></ng-include>
+    </div>
+    
+
+    <div class="row form-div" >
+        <form role="form" name="customerForm" ng-submit="updateCustomer(me.customer)">
+
+            <div class="col-lg-8">
+            <h2 ><strong>{{ formHeader }} Customer Details</strong></h2>
+            <br>
+                <div class="form-group">
+                    <label for="name">Enter Name</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" ng-model="me.customer.name"  name="name" id="name" placeholder="Enter Name" required ngvalidate-character
+                            ng-class="{ 'hasError' : customerForm.name.$invalid && !customerForm.name.$pristine }"
+                        >
+                        <small class="errorTxt" ng-if="customerForm.name.$dirty && customerForm.name.$error.ngvalidateCharacter">{{ NAME_ERR }}</small>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="mobile">Enter Mobile</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" ng-model="me.customer.mobile"  id="mobile" name="mobile" placeholder="Enter Mobile" required ngvalidate-mobile
+                            ng-class="{ 'hasError' : customerForm.mobile.$invalid && !customerForm.mobile.$pristine }"
+                        >
+                        <small class="errorTxt" ng-if="customerForm.mobile.$dirty && customerForm.mobile.$error.ngvalidateMobile">{{ MOBILENUMB_ERR }}</small>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Enter Phone</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" ng-model="me.customer.phone"  id="phone" name="phone" placeholder="Enter Phone" >
+                    </div>
+                </div>
+                
+                <ng-include src="'views/address.tpl.html'"></ng-include>
+                
+                <div class="form-group">
+                    <label for="dob">Enter DOB</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Enter DOB" ng-model="me.customer.dob" id="dob" name="dob" required ng-dobpicker ngvalidate-date
+                            ng-class="{ 'hasError' : customerForm.dob.$invalid && !customerForm.dob.$pristine }"
+                        >
+                        <small class="errorTxt" ng-if="customerForm.dob.$dirty && customerForm.dob.$error.ngvalidateDate">{{ DOB_ERR }}</small>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Enter Email</label>
+                    <div class="input-group">
+                        <input type="email" class="form-control" ng-model="me.customer.email" id="email" name="email" placeholder="Enter Email" required ngvalidate-email
+                            ng-class="{ 'hasError' : customerForm.email.$invalid && !customerForm.email.$pristine }"
+                        >
+                        <small class="errorTxt" ng-if="customerForm.email.$dirty && customerForm.email.$error.ngvalidateEmail">{{ EMAIL_ERR }}</small>
+                    </div>
+                </div>
+                <div class="textalign-center">
+                    <input type="submit" name="submit" ng-disabled="customerForm.$invalid" id="submit" value="Submit Details" class="btn btn-primary">
+                </div>
+            </div>
+        </form>
+        <br>
+    </div>
+   <br><br>
+</div>

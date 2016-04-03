@@ -1,2 +1,4 @@
-# Consumer_App
-A MEAN Stack based utility to add/update customers and generate consolidated billing report for each customer.
+# WSDLGenerator_Utility
+
+A MEAN Stack based utility to generate draft version of SOAP-WSDL.
+

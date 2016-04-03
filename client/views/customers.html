@@ -1,0 +1,12 @@
+<div  class="container generate-container">
+
+    <app-header selected="list"></app-header>
+
+    <!-- To display error message -->
+    <div ng-cloak ng-if="me.hasError">
+        <ng-include src="'views/error.tpl.html'"></ng-include>
+    </div>
+    
+    <div ng-customers customers = "me.customerList" remove-customer = "deleteCustomer(c)" update-customer = "editCustomer(c)"></div>
+   
+</div>

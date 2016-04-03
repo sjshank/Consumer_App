@@ -1,0 +1,20 @@
+<!-- HTML for header -->
+<div class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li ng-class="{ active: selected == 'home' }"><a href="#/home">Home</a></li>
+                <li ng-class="{ active: selected == 'list' }"><a href="#/list">Customers</a></li>
+                <li ng-class="{ active: selected == 'update' }"><a href="#/customer">Add-Update Customer</a></li>
+            </ul>
+        </div>
+    </div>
+</div>

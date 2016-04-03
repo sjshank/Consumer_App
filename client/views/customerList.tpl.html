@@ -1,0 +1,60 @@
+<table st-table="customers" class="table table-striped">
+    <thead>
+        <tr>
+            <th >Name</th>
+            <th >Mobile</th>
+            <th >Phone</th>
+            <th >DOB</th>
+            <th >Address</th>
+            <th >Actions</th>
+        </tr>
+        <tr>
+            <th>
+                <input st-search="me.name" placeholder="search for name" class="input-sm form-control" type="search"/>
+            </th>
+            <th>
+                <input st-search="mobile" placeholder="search for mobile" class="input-sm form-control" type="search"/>
+            </th>
+            <th>
+                <input st-search="phone" placeholder="search for phone" class="input-sm form-control" type="search"/>
+            </th>
+            <th>
+                <input st-search="dob" placeholder="search for dob" class="input-sm form-control" type="search"/>
+            </th>
+            <th>
+                <input st-search="address" placeholder="search for address" class="input-sm form-control" type="search"/>
+            </th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="cust in customers">
+            <td>{{cust.name | uppercase}}</td>
+            <td>{{cust.mobile}}</td>
+            <td>{{cust.phone}}</td>
+            <td>{{cust.dob | convertDate}}</td>
+            <td>
+                {{cust.address.flat}}, {{cust.address.street}},
+                {{cust.address.city}}, {{cust.address.state}},
+                {{cust.address.country}} - {{cust.address.zipcode}}
+            </td>
+            <td>
+                <button type="button" ng-click="updateCustomer({c: cust})" class="btn btn-sm btn-danger">
+					<i class="glyphicon glyphicon-edit">
+					</i>
+				</button>
+				<button type="button" ng-click="removeCustomer({c: cust})" class="btn btn-sm btn-danger">
+					<i class="glyphicon glyphicon-remove">
+					</i>
+				</button>
+		    </td>
+        </tr>
+    </tbody>
+    <tfoot>
+			<tr>
+				<td colspan="6" class="text-center">
+					<div st-items-by-page="1" st-pagination="" st-displayed-pages="1"></div>
+				</td>
+			</tr>
+	</tfoot>
+</table>

@@ -1,0 +1,60 @@
+    <h3>Enter Address</h3>
+
+        <div class="form-group">
+        <label for="flat" class="normal-font">Flat</label>
+        <div class="input-group">
+            <input type="text" class="form-control" ng-model="me.customer.address.flat"  id="flat" name="flat" placeholder="Enter Flat Number" ng-required="true"
+                ng-class="{ 'hasError' : customerForm.flat.$invalid && !customerForm.flat.$pristine }"
+            >
+            <small class="errorTxt" ng-if="customerForm.flat.$invalid && !customerForm.flat.$pristine">{{ FIELD_REQUIRED }}</small>
+            
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="street" class="normal-font">Street</label>
+        <div class="input-group">
+            <input type="text" class="form-control" ng-model="me.customer.address.street"  id="street" name="street" placeholder="Enter Street" ng-required="true"
+                ng-class="{ 'hasError' : customerForm.street.$invalid && !customerForm.street.$pristine }"
+            >
+            <small class="errorTxt" ng-if="customerForm.street.$invalid && !customerForm.street.$pristine">{{ FIELD_REQUIRED }}</small>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="city" class="normal-font">City</label>
+        <div class="input-group">
+            <input type="text" class="form-control" ng-model="me.customer.address.city"  id="city" name="city" placeholder="Enter City" ngvalidate-character
+                ng-class="{ 'hasError' : customerForm.city.$invalid && !customerForm.city.$pristine }"
+            >
+            <small class="errorTxt" ng-if="customerForm.city.$dirty && customerForm.city.$error.ngvalidateCharacter">{{ CITY_ERR }}</small>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="state" class="normal-font">State</label>
+        <div class="input-group">
+            <input type="text" class="form-control" ng-model="me.customer.address.state"  id="state" name="state" placeholder="Enter State" ngvalidate-character
+               ng-class="{ 'hasError' : customerForm.state.$invalid && !customerForm.state.$pristine }"
+            >
+            <small class="errorTxt" ng-if="customerForm.state.$dirty && customerForm.state.$error.ngvalidateCharacter">{{ STATE_ERR }}</small>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="country" class="normal-font">Country</label>
+        <div class="input-group">
+            <input type="text" readonly class="form-control" ng-model="me.customer.address.country"  id="country" name="country" placeholder="Enter Country" >
+        </div>
+    </div>
+    
+    <div class="form-group">
+        <label for="zipcode" class="normal-font">Zipcode</label>
+        <div class="input-group">
+            <input type="text" class="form-control" ng-model="me.customer.address.zipcode"  id="zipcode" name="zipcode" placeholder="Enter Zipcode" ngvalidate-zipcode
+               ng-class="{ 'hasError' : customerForm.zipcode.$invalid && !customerForm.zipcode.$pristine }"
+            >
+            <small class="errorTxt" ng-if="customerForm.zipcode.$dirty && customerForm.zipcode.$error.ngvalidateZipcode">{{ ZIPCODE_ERR }}</small>
+        </div>
+    </div>
+<br>
