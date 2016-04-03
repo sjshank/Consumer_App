@@ -469,3 +469,220 @@ From previous event:
     at urlencodedParser (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\body-parser\lib\types\urlencoded.js:88:40)
     at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
     at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+[2016-04-03 18:24:32.862] [ERROR] customerController - Error occurred while retrieving customers [ReferenceError: req is not defined]
+ReferenceError: req is not defined
+    at Object.exports.deleteCustomer (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:63:16)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\router.js:14:22
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:131:13)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:125:14)
+    at Route.dispatch (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:176:3)
+    at router (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\appConfig.js:25:5
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+[2016-04-03 18:25:55.962] [ERROR] customerController - Error occurred while retrieving customers [TypeError: Cannot read property 'id' of undefined]
+TypeError: Cannot read property 'id' of undefined
+    at Object.exports.deleteCustomer (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:63:41)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\router.js:14:22
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:131:13)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:125:14)
+    at Route.dispatch (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:176:3)
+    at router (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\appConfig.js:25:5
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+[2016-04-03 18:48:05.963] [ERROR] customerController - Error occurred while removing customer  { [CastError: Cast to ObjectId failed for value "[object Object]" at path "_id"]
+  message: 'Cast to ObjectId failed for value "[object Object]" at path "_id"',
+  name: 'CastError',
+  kind: 'ObjectId',
+  value: { _id: undefined },
+  path: '_id',
+  reason: undefined }
+CastError: Cast to ObjectId failed for value "[object Object]" at path "_id"
+    at MongooseError.CastError (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\error\cast.js:19:11)
+    at ObjectId.cast (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\schema\objectid.js:147:13)
+    at ObjectId.castForQuery (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\schema\objectid.js:187:15)
+    at cast (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\cast.js:141:34)
+    at Query.cast (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\query.js:2570:10)
+    at castQuery (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\query.js:2477:18)
+    at Query._findAndModify (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\query.js:1727:17)
+    at Query.findOneAndRemove (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mquery\lib\mquery.js:2264:15)
+    at Query._findOneAndRemove (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\query.js:1702:31)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\kareem\index.js:156:8
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\kareem\index.js:18:7
+    at doNTCallback0 (node.js:407:9)
+    at process._tickCallback (node.js:336:13)
+From previous event:
+    at exports.deleteCustomer.deleteCustomer (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:69:31)
+From previous event:
+    at exports.deleteCustomer.deleteCustomer (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:68:20)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:84:13
+    at Object.exports.deleteCustomer (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:92:11)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\router.js:14:22
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:131:13)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:125:14)
+    at Route.dispatch (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:176:3)
+    at router (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\appConfig.js:25:5
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+[2016-04-03 18:54:22.260] [ERROR] customerController - Error occurred while adding or updating customer [TypeError: Cannot read property 'email' of undefined]
+TypeError: Cannot read property 'email' of undefined
+    at Object.exports.updateCustomer (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:15:53)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\router.js:11:22
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:176:3)
+    at router (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\appConfig.js:25:5
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+[2016-04-03 18:54:55.211] [ERROR] customerController - Error occurred while adding or updating customer [TypeError: Cannot read property 'email' of undefined]
+TypeError: Cannot read property 'email' of undefined
+    at Object.exports.updateCustomer (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:15:53)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\router.js:11:22
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:176:3)
+    at router (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\appConfig.js:25:5
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+[2016-04-03 18:57:21.622] [ERROR] customerController - Error occurred while adding or updating customer [TypeError: Cannot read property 'email' of undefined]
+TypeError: Cannot read property 'email' of undefined
+    at Object.exports.updateCustomer (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:16:39)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\router.js:11:22
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:176:3)
+    at router (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\appConfig.js:25:5
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+[2016-04-03 18:58:21.371] [ERROR] customerController - Error occurred while saving customer details { [CastError: Cast to date failed for value "15/07/2015" at path "dob"]
+  message: 'Cast to date failed for value "15/07/2015" at path "dob"',
+  name: 'CastError',
+  kind: 'date',
+  value: '15/07/2015',
+  path: 'dob',
+  reason: undefined }
+CastError: Cast to date failed for value "15/07/2015" at path "dob"
+    at MongooseError.CastError (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\error\cast.js:19:11)
+    at SchemaDate.cast (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\schema\date.js:242:9)
+    at SchemaDate.castForQuery (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\schema\date.js:276:17)
+    at Query._castUpdateVal (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\query.js:2467:17)
+    at Query._walkUpdatePath (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\query.js:2414:25)
+    at Query._castUpdate (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\query.js:2286:23)
+    at castDoc (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\query.js:2490:18)
+    at Query._findAndModify (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\query.js:1751:17)
+    at Query._findOneAndUpdate (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\query.js:1619:8)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\kareem\index.js:156:8
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\kareem\index.js:18:7
+    at doNTCallback0 (node.js:407:9)
+    at process._tickCallback (node.js:336:13)
+From previous event:
+    at Object.exports.updateCustomer (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:15:27)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\router.js:11:22
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:176:3)
+    at router (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\appConfig.js:25:5
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at urlencodedParser (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\body-parser\lib\types\urlencoded.js:81:44)
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7

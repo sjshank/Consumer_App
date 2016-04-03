@@ -2,7 +2,7 @@
 
 angular.module('consumerApp')
 
-//Directive for validating 
+//Directive for validating date
 .directive("ngvalidateDate", ['$log', 'appConstants', function ($log, appConstant) {
     return {
         restrict: "A",
@@ -13,6 +13,7 @@ angular.module('consumerApp')
     };
 }])
 
+//Directive for validating alphabet inputs
 .directive("ngvalidateCharacter", ['$log', 'appConstants', function ($log, appConstant) {
     return {
         restrict: "A",
@@ -23,6 +24,7 @@ angular.module('consumerApp')
     };
 }])
 
+//Directive for validating mobile number
 .directive("ngvalidateMobile", ['$log', 'appConstants', function ($log, appConstant) {
     return {
         restrict: "A",
@@ -33,6 +35,7 @@ angular.module('consumerApp')
     };
 }])
 
+//Directive for validating email
 .directive("ngvalidateEmail", ['$log', 'appConstants', function ($log, appConstant) {
     return {
         restrict: "A",
@@ -43,6 +46,7 @@ angular.module('consumerApp')
     };
 }])
 
+//Directive for validating zipcode
 .directive("ngvalidateZipcode", ['$log', 'appConstants', function ($log, appConstant) {
     return {
         restrict: "A",
@@ -52,10 +56,6 @@ angular.module('consumerApp')
         }           
     };
 }]);
-
-
-
-
 
 function validateInput(dirName, regEx, ngModel){
     try{

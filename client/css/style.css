@@ -43,14 +43,14 @@ h1 {
   font-size: 12px;
   margin-left: 4px;
 }
-.input-group {
-  width: 100% !important;
-}
-.form-control {
-  border-radius: 4px !important;
-}
 .form-div {
   margin-left: 32%;
+}
+.form-div .input-group {
+  width: 100% !important;
+}
+.form-div .form-control {
+  border-radius: 4px !important;
 }
 .textalign-center {
   text-align: center;
@@ -60,4 +60,34 @@ h1 {
 }
 .normal-font {
   font-weight: normal;
+}
+.nameTD {
+  width: 21%;
+  border-left: 1px solid #ddd;
+}
+.mobileTD {
+  width: 15%;
+}
+.phoneTD {
+  width: 15%;
+}
+.dateTD {
+  width: 14%;
+}
+.addressTD {
+  width: 25%;
+}
+.actionTD {
+  width: 12%;
+  border-bottom: 1px solid #ddd !important;
+  border-right: 1px solid #ddd;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #F9F975 !important;
+}
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #F9F8EF !important;
+}
+.table>thead>tr>th {
+    border-bottom: none !important;
 }

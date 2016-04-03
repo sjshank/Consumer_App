@@ -1,3 +1,8 @@
+/*
+*   Module for configuring angular routing
+*/
+
+
 'use strict';
 
 angular
@@ -6,7 +11,9 @@ angular
     .config(['$routeProvider', function($routeProvider) {
         $routeProvider
             .when('/home', {
-                templateUrl:'views/home.html'
+                templateUrl:'views/home.html',
+                controller:'homeCtrl',
+                controllerAs:'me'
             })
             .when('/list', {
                 templateUrl:'views/customers.html',

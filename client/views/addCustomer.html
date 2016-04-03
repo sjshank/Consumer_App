@@ -7,8 +7,12 @@
         <ng-include src="'views/error.tpl.html'"></ng-include>
     </div>
     
+     <!-- To display success message -->
+    <div ng-if="me.success">
+        <ng-include src="'views/success.tpl.html'" ></ng-include>
+    </div>
 
-    <div class="row form-div" >
+    <div ng-hide="me.success"class="row form-div" >
         <form role="form" name="customerForm" ng-submit="updateCustomer(me.customer)">
 
             <div class="col-lg-8">
@@ -60,7 +64,7 @@
                     </div>
                 </div>
                 <div class="textalign-center">
-                    <input type="submit" name="submit" ng-disabled="customerForm.$invalid" id="submit" value="Submit Details" class="btn btn-primary">
+                    <input type="submit" name="submit" ng-disabled="customerForm.$invalid" id="submit" value="Submit" class="btn btn-primary">
                 </div>
             </div>
         </form>

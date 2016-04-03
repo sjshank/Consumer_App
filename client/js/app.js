@@ -5,4 +5,4 @@
 
 'use strict';
 
-angular.module('consumerApp', ['ngRoute', 'app.routes', 'app.config', 'smart-table']);
+angular.module('consumerApp', ['ngRoute', 'app.routes', 'app.config', 'ui.bootstrap', 'smart-table', 'ngSanitize']);

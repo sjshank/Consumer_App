@@ -2,8 +2,8 @@
 
 angular.module('consumerApp')
 
-//Directive for renering header and displaying active page
-.directive('ngCustomers', function() {
+//Directive for rendering customer list
+.directive('ngCustomers', ['$filter', function(filter) {
     return {
         templateUrl : '../views/customerList.tpl.html',
         scope : {
@@ -15,7 +15,7 @@ angular.module('consumerApp')
             
         }
     }
-})
+}])
 
 // Directive for convert ISO date into Date String
   .directive("ngconvertDate", function() {
@@ -27,6 +27,7 @@ angular.module('consumerApp')
 			    };
 })
 
+// Directive for displaying datepicker
  .directive("ngDobpicker",
 				function() {
                     

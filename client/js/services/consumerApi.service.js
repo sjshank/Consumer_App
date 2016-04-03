@@ -1,5 +1,5 @@
 /*
-*   
+*   Factory responsible for request and response to server
 *
 */
 
@@ -15,6 +15,8 @@ angular.module('consumerApp')
                  function($q, $http, urls, appConstants) {
         
             var consumerAPIObject = {};
+            
+            //Making Get request
             consumerAPIObject.retrieveCustomers = function() {
                 var deferred = $q.defer();
                 $http.get(urls.retrieveCustomers).
@@ -27,13 +29,25 @@ angular.module('consumerApp')
                 return deferred.promise;
             };
             
-            consumerAPIObject.updateCustomers = function(req) {
+            //Making Add/Update request
+            consumerAPIObject.updateCustomer = function(cust) {
                 var deferred = $q.defer();
-                $http.post(urls.updateCustomer).
+                $http.post(urls.updateCustomer, {customer : cust}).
                     success(function(data, status, headers, config) {
-                        if(data.results){
-                            deferred.resolve(data.results);
-                        }
+                            deferred.resolve(data);
+                    }).
+                    error(function(data, status, headers, config) {
+                        deferred.reject([data, status, headers, config]);
+                    });
+                return deferred.promise;
+            };
+            
+            //Making Delete request
+            consumerAPIObject.deleteCustomer = function(cust) {
+                var deferred = $q.defer();
+                $http.delete(urls.updateCustomer, {params : {customer : cust}}).
+                    success(function(data, status, headers, config) {
+                            deferred.resolve(data);
                     }).
                     error(function(data, status, headers, config) {
                         deferred.reject([data, status, headers, config]);

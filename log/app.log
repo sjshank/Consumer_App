@@ -554,3 +554,363 @@ From previous event:
 [2016-04-03 14:59:59.793] [DEBUG] customerController - Inside getCustomers methond
 [2016-04-03 15:00:24.037] [DEBUG] customerController - Inside getCustomers methond
 [2016-04-03 15:01:31.629] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 15:42:27.416] [INFO] db - Connection established !
+[2016-04-03 15:42:34.170] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 16:05:47.288] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 16:07:58.297] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 16:09:09.098] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 16:09:20.681] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 16:09:33.008] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 16:10:24.715] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 16:17:47.728] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 16:24:16.400] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 16:29:14.453] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 16:29:34.928] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 16:30:02.770] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 16:56:35.757] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 16:57:00.514] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 16:58:45.683] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 16:59:34.913] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 17:04:52.041] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 17:05:12.604] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 17:05:53.581] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 17:08:11.642] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 17:11:05.318] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 17:38:47.938] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 17:48:29.698] [INFO] db - Connection established !
+[2016-04-03 17:48:47.494] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 17:48:49.126] [DEBUG] customerController - Inside deleteCustomer methond
+[2016-04-03 17:51:31.515] [DEBUG] customerController - Inside deleteCustomer methond
+[2016-04-03 17:54:08.537] [INFO] db - Connection established !
+[2016-04-03 17:54:13.102] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 17:54:18.399] [DEBUG] customerController - Inside deleteCustomer methond
+[2016-04-03 17:58:21.956] [INFO] db - Connection established !
+[2016-04-03 17:58:24.894] [DEBUG] customerController - Inside deleteCustomer methond
+[2016-04-03 17:58:33.269] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 17:58:41.379] [DEBUG] customerController - Inside deleteCustomer methond
+[2016-04-03 18:23:21.529] [INFO] db - Connection established !
+[2016-04-03 18:24:05.639] [INFO] db - Connection established !
+[2016-04-03 18:24:19.009] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 18:24:22.334] [DEBUG] customerController - Inside deleteCustomer methond
+[2016-04-03 18:24:32.862] [ERROR] customerController - Error occurred while retrieving customers [ReferenceError: req is not defined]
+ReferenceError: req is not defined
+    at Object.exports.deleteCustomer (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:63:16)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\router.js:14:22
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:131:13)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:125:14)
+    at Route.dispatch (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:176:3)
+    at router (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\appConfig.js:25:5
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+[2016-04-03 18:25:39.159] [INFO] db - Connection established !
+[2016-04-03 18:25:47.360] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 18:25:53.380] [DEBUG] customerController - Inside deleteCustomer methond
+[2016-04-03 18:25:55.962] [ERROR] customerController - Error occurred while retrieving customers [TypeError: Cannot read property 'id' of undefined]
+TypeError: Cannot read property 'id' of undefined
+    at Object.exports.deleteCustomer (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:63:41)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\router.js:14:22
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:131:13)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:125:14)
+    at Route.dispatch (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:176:3)
+    at router (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\appConfig.js:25:5
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+[2016-04-03 18:26:33.927] [DEBUG] customerController - Inside deleteCustomer methond
+[2016-04-03 18:27:22.230] [INFO] db - Connection established !
+[2016-04-03 18:28:02.933] [DEBUG] customerController - Inside deleteCustomer methond
+[2016-04-03 18:42:54.705] [INFO] db - Connection established !
+[2016-04-03 18:42:59.598] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 18:43:01.689] [DEBUG] customerController - Inside deleteCustomer methond
+[2016-04-03 18:44:44.833] [INFO] db - Connection established !
+[2016-04-03 18:44:51.465] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 18:44:54.879] [DEBUG] customerController - Inside deleteCustomer methond
+[2016-04-03 18:47:22.953] [INFO] db - Connection established !
+[2016-04-03 18:47:29.165] [DEBUG] customerController - Inside deleteCustomer methond
+[2016-04-03 18:48:05.963] [ERROR] customerController - Error occurred while removing customer  { [CastError: Cast to ObjectId failed for value "[object Object]" at path "_id"]
+  message: 'Cast to ObjectId failed for value "[object Object]" at path "_id"',
+  name: 'CastError',
+  kind: 'ObjectId',
+  value: { _id: undefined },
+  path: '_id',
+  reason: undefined }
+CastError: Cast to ObjectId failed for value "[object Object]" at path "_id"
+    at MongooseError.CastError (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\error\cast.js:19:11)
+    at ObjectId.cast (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\schema\objectid.js:147:13)
+    at ObjectId.castForQuery (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\schema\objectid.js:187:15)
+    at cast (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\cast.js:141:34)
+    at Query.cast (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\query.js:2570:10)
+    at castQuery (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\query.js:2477:18)
+    at Query._findAndModify (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\query.js:1727:17)
+    at Query.findOneAndRemove (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mquery\lib\mquery.js:2264:15)
+    at Query._findOneAndRemove (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\query.js:1702:31)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\kareem\index.js:156:8
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\kareem\index.js:18:7
+    at doNTCallback0 (node.js:407:9)
+    at process._tickCallback (node.js:336:13)
+From previous event:
+    at exports.deleteCustomer.deleteCustomer (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:69:31)
+From previous event:
+    at exports.deleteCustomer.deleteCustomer (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:68:20)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:84:13
+    at Object.exports.deleteCustomer (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:92:11)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\router.js:14:22
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:131:13)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:125:14)
+    at Route.dispatch (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:176:3)
+    at router (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\appConfig.js:25:5
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+[2016-04-03 18:48:11.433] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 18:48:16.652] [DEBUG] customerController - Inside deleteCustomer methond
+[2016-04-03 18:50:52.481] [INFO] db - Connection established !
+[2016-04-03 18:51:34.296] [INFO] db - Connection established !
+[2016-04-03 18:51:39.040] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 18:51:44.445] [DEBUG] customerController - Inside deleteCustomer methond
+[2016-04-03 18:52:27.871] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 18:53:57.679] [DEBUG] customerController - Inside updateCustomer methond
+[2016-04-03 18:54:22.260] [ERROR] customerController - Error occurred while adding or updating customer [TypeError: Cannot read property 'email' of undefined]
+TypeError: Cannot read property 'email' of undefined
+    at Object.exports.updateCustomer (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:15:53)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\router.js:11:22
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:176:3)
+    at router (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\appConfig.js:25:5
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+[2016-04-03 18:54:48.568] [DEBUG] customerController - Inside updateCustomer methond
+[2016-04-03 18:54:55.211] [ERROR] customerController - Error occurred while adding or updating customer [TypeError: Cannot read property 'email' of undefined]
+TypeError: Cannot read property 'email' of undefined
+    at Object.exports.updateCustomer (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:15:53)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\router.js:11:22
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:176:3)
+    at router (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\appConfig.js:25:5
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+[2016-04-03 18:55:06.309] [DEBUG] customerController - Inside updateCustomer methond
+[2016-04-03 18:56:45.844] [INFO] db - Connection established !
+[2016-04-03 18:56:54.479] [DEBUG] customerController - Inside updateCustomer methond
+[2016-04-03 18:57:21.622] [ERROR] customerController - Error occurred while adding or updating customer [TypeError: Cannot read property 'email' of undefined]
+TypeError: Cannot read property 'email' of undefined
+    at Object.exports.updateCustomer (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:16:39)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\router.js:11:22
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:176:3)
+    at router (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\appConfig.js:25:5
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+[2016-04-03 18:57:45.687] [DEBUG] customerController - Inside updateCustomer methond
+[2016-04-03 18:58:21.371] [ERROR] customerController - Error occurred while saving customer details { [CastError: Cast to date failed for value "15/07/2015" at path "dob"]
+  message: 'Cast to date failed for value "15/07/2015" at path "dob"',
+  name: 'CastError',
+  kind: 'date',
+  value: '15/07/2015',
+  path: 'dob',
+  reason: undefined }
+CastError: Cast to date failed for value "15/07/2015" at path "dob"
+    at MongooseError.CastError (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\error\cast.js:19:11)
+    at SchemaDate.cast (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\schema\date.js:242:9)
+    at SchemaDate.castForQuery (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\schema\date.js:276:17)
+    at Query._castUpdateVal (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\query.js:2467:17)
+    at Query._walkUpdatePath (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\query.js:2414:25)
+    at Query._castUpdate (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\query.js:2286:23)
+    at castDoc (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\query.js:2490:18)
+    at Query._findAndModify (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\query.js:1751:17)
+    at Query._findOneAndUpdate (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\mongoose\lib\query.js:1619:8)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\kareem\index.js:156:8
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\kareem\index.js:18:7
+    at doNTCallback0 (node.js:407:9)
+    at process._tickCallback (node.js:336:13)
+From previous event:
+    at Object.exports.updateCustomer (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\controllers\customerController.js:15:27)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\router.js:11:22
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:176:3)
+    at router (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\server\config\appConfig.js:25:5
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:271:10)
+    at urlencodedParser (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\body-parser\lib\types\urlencoded.js:81:44)
+    at Layer.handle [as handle_request] (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Saurabh Shankariya\Desktop\Start_Node\Consumer_App\node_modules\express\lib\router\index.js:280:7
+[2016-04-03 19:03:21.214] [INFO] db - Connection established !
+[2016-04-03 19:07:52.524] [DEBUG] customerController - Inside updateCustomer methond
+[2016-04-03 19:08:27.898] [INFO] db - Connection established !
+[2016-04-03 19:09:33.296] [INFO] db - Connection established !
+[2016-04-03 19:10:00.747] [DEBUG] customerController - Inside updateCustomer methond
+[2016-04-03 19:10:21.766] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 19:19:58.185] [INFO] db - Connection established !
+[2016-04-03 19:20:03.113] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 19:20:43.943] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 19:21:39.160] [DEBUG] customerController - Inside updateCustomer methond
+[2016-04-03 19:24:14.496] [DEBUG] customerController - Inside updateCustomer methond
+[2016-04-03 19:24:45.922] [DEBUG] customerController - Inside updateCustomer methond
+[2016-04-03 19:24:54.859] [DEBUG] customerController - Inside updateCustomer methond
+[2016-04-03 19:25:03.971] [DEBUG] customerController - Inside updateCustomer methond
+[2016-04-03 19:26:38.283] [DEBUG] customerController - Inside updateCustomer methond
+[2016-04-03 19:27:46.016] [DEBUG] customerController - Inside updateCustomer methond
+[2016-04-03 19:27:57.369] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 19:28:04.692] [DEBUG] customerController - Inside deleteCustomer methond
+[2016-04-03 19:28:30.965] [DEBUG] customerController - Inside deleteCustomer methond
+[2016-04-03 19:28:36.745] [DEBUG] customerController - Inside deleteCustomer methond
+[2016-04-03 20:27:04.739] [DEBUG] customerController - Inside updateCustomer methond
+[2016-04-03 20:27:11.644] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 20:35:23.008] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 20:40:25.256] [INFO] db - Connection established !
+[2016-04-03 20:40:49.375] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 20:41:17.078] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 20:41:43.821] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 20:41:50.307] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 20:41:59.952] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 20:42:33.673] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 20:46:27.537] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 20:53:43.255] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 21:24:02.537] [INFO] db - Connection established !
+[2016-04-03 21:25:33.528] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 21:25:48.516] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 21:27:02.980] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 21:27:10.909] [DEBUG] customerController - Inside deleteCustomer methond
+[2016-04-03 21:27:38.587] [DEBUG] customerController - Inside updateCustomer methond
+[2016-04-03 21:27:40.384] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 21:28:42.710] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 21:34:32.359] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 21:34:38.435] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 21:34:41.708] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 21:35:08.287] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 21:35:11.654] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 21:35:16.268] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 21:35:18.215] [DEBUG] customerController - Inside deleteCustomer methond
+[2016-04-03 21:35:45.370] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 21:37:15.609] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 21:37:35.784] [DEBUG] customerController - Inside updateCustomer methond
+[2016-04-03 21:37:37.342] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 21:39:06.655] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 21:39:20.197] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 21:40:52.881] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 21:47:27.188] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 21:47:30.851] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 21:49:40.255] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 21:49:54.154] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 21:50:09.936] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 21:50:12.597] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 21:55:02.866] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 21:55:35.179] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 21:55:41.044] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 22:13:22.578] [DEBUG] customerController - Inside updateCustomer methond
+[2016-04-03 22:13:24.653] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 22:22:09.413] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 22:22:41.541] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 22:24:12.038] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 22:24:49.752] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 22:26:26.856] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 22:28:22.158] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 22:28:52.272] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 22:38:10.188] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 22:42:11.075] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 22:43:32.607] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 22:44:54.861] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 22:44:57.419] [DEBUG] customerController - Inside getCustomers methond
+[2016-04-03 22:45:05.292] [DEBUG] customerController - Inside getCustomers methond

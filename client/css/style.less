@@ -49,7 +49,7 @@ h1 {
 .warningDiv {
     .getWidth(66%);
  }
- .updateCust-container {
+.updateCust-container {
     padding-left: 30px;
     padding-right: 30px;     
  }
@@ -68,14 +68,17 @@ h1 {
   font-size: 12px;
   margin-left: 4px;
 }
-.input-group {
-    .getWidth(100%) !important;
-}
-.form-control {
-    .border-radius(4px) !important;
-}
+
 .form-div {
     margin-left: 32%;
+    
+    .input-group {
+        .getWidth(100%) !important;
+    }
+    
+    .form-control {
+        .border-radius(4px) !important;
+    }
 }
 .textalign-center {
     .getTextalign(center);
@@ -85,4 +88,34 @@ h1 {
 }
 .normal-font {
     .getFontWeight(normal);
+}
+.nameTD {
+    .getWidth(21%);
+    border-left: 1px solid #ddd;
+}
+.mobileTD {
+    .getWidth(15%);
+}
+.phoneTD {
+    .getWidth(15%);
+}
+.dateTD {
+    .getWidth(14%);
+}
+.addressTD {
+    .getWidth(25%);
+}
+.actionTD {
+    .getWidth(12%);
+    border-bottom: 1px solid #ddd !important;
+    border-right: 1px solid #ddd;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #F9F975 !important;
+}
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #F9F8EF !important;
+}
+.table>thead>tr>th {
+    border-bottom: none !important;
 }

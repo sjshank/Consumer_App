@@ -9,11 +9,14 @@ var express = require("express"),
 router.route('/updateCustomer.json')
     .post(function(req, res) {
         customerCtrl.updateCustomer(req, res);
+    })
+    .delete(function(req, res) {
+        customerCtrl.deleteCustomer(req, res);
     });
     
 router.route('/getCustomers.json')
     .get(function(req, res) {
         customerCtrl.getCustomers(req, res);
     });
-    
+
 module.exports = router;

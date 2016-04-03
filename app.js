@@ -22,8 +22,8 @@ app.get('/', landingPageCB);
 
 app.use('/api', route);
 
-//Render landing page
-//app.use('*', landingPageCB);
+Render landing page
+app.use('*', landingPageCB);
 
 /*
 *	Error Handler. Development error handler.
@@ -33,7 +33,7 @@ if (app.get('env') === 'development') {
 		  	log.error("unexpected error occur ", err);
 		  	console.log(err);
 			res.status(err.status || 500);
-			res.json({errorMsg: "Currently we are experiencing technical difficulties. Please try after some time."});
+			res.json({errMsg: "Currently we are experiencing technical difficulties. Please try after some time."});
 		  });
 }
 
